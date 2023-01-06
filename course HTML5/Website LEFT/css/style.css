@@ -1,0 +1,9 @@
+.tittle-h2 {
+    color : red ;
+}
+b:hover {
+    color : yellowgreen ;
+}
+[attribute="subtitle"]{
+    color : yellow ;
+}
