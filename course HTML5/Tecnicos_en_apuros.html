@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title style="color: royalblue;">Tecnicos en apuros</title>
+    <style>
+        table, th, td {
+            border: 0.5px  solid black
+        }
+    </style>
+</head>
+<body>
+    <h1>Tecnicos en apuros</h1>
+    
+        <a href="#Integrantes">Integrantes</a>
+        <a href="#Description" target="_blank">Descripcion</a>
+        <a href="#Enlaces">Enlaces de Contacto</a>
+        <a href="#Componentes"></a>
+    <br>
+    <video src="video/videoisabebe.mp4" controls></video>
+    <audio src="video/videoisabebe.mp4" controls></video>
+<!--lista no ordenada-->
+
+<!--lista ordenada
+<Ol>
+    <li value="10">ELEMENENTO 1</li>
+    <li>ELEMENENTO 2</li>
+    <li>ELEMENENTO 3</li>   
+    <li>ELEMENENTO 4</li>
+    <li> 
+        <ol>
+                <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+        </ol>
+    </li> 
+ </Ol>
+
+
+    <form action="/formulario" method="get"> 
+        <label for="nombre">Ingrese su nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Leandro"/>
+        <br>
+        <label for="apellido">Ingrese su apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Benitez"/>
+        <br>
+        <textarea name="comentario" id="comentario" cols="40" rows="10" 
+        placeholder="agregar comentario"></textarea>
+        <br> 
+        <label for="enviar">Enviar</label>
+         <button type="button">TIPO BOTON</button>
+         <button type="reset">TIPO reset</button>           
+         <button type="submit">TIPO submit</button>   
+    </form>-->
+
+    
+    
+    <img  id="Description" src="IMG/RB EXP1.0.jpg" height="300" width="500" alt="Imagen del Robot"/>
+    
+    <p > Este robot llamado <span style="color: blue ; ">RB Exp 1.0</span> se usara como robot experimentativo para realizar varias pruebas entre las cuales se probara su velocidad de respuesta a la hora de detectar objetos, con este propósito se lo podría utilizar como robot anti choques, también se usara para la obtencion de experiencia programando en el microcontrolador que se usará el cual sera el ESP32.
+    También servirá para la experiencia de la utilización del WIFI, la automatización y desarrollo de una aplicación.</p>
+
+    <table id="Integrantes" style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Integrantes</th>
+                <th>Roles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Benitez Leandro</td>
+                <td>Leader</td>
+            </tr>
+            <tr>
+                <td>Benitez Lucas</td>
+                <td>Hardware</td>
+            </tr>
+            <tr>
+                <td>Acosta Leandro</td>
+                <td>Software</td>
+            </tr>    
+        <tfoot>
+        </tfoot>
+        </tbody>
+    </table>
+
+    <h4 id="Componentes" >Listado de Componentes</h4>
+    <table style="width: 500px;">
+        <thead>
+            <tr>   
+                <th>Componentes</th>               
+                <th>Precio</th>
+            </tr> 
+        </thead>
+        <tbody>
+            <tr>
+                <td>ESP 32 DEVKIT V1</td>
+                <td>$1300</td>
+            </tr>
+            <tr>
+                <td>ULTRASONIDOS HR04 x4</td>
+                <td>$1000</td>
+            </tr>        
+            <tr>
+                <td>CONTROLADOR L298N</td>
+                <td>$550</td>
+            </tr>
+            <tr>
+                <td>MOTOR 6V y RUEDAS x2</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>INFRARROJO Ky-032</td>
+                <td>$500</td>
+            </tr>
+        </tbody>
+
+    </table>    
+
+    <!-- href es para links en la misma pestaña-->
+    <a href="https://www.youtube.com/watch?v=xbkACtXA_cg" style="color: blue ; ">Video Comparativo</a>
+    
+    <!--a lo que queremos lograr--><br>
+    <a id="Enlaces" target ="_blank" rel="noopener noreferrer" href="https://web.whatsapp.com/" style="color: BLUE ;" >Link de Contacto</a>
+    <br>
+</body>
+</html>
