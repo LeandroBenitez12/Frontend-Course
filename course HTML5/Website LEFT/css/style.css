@@ -1,16 +1,42 @@
+/*
 .tittle-h2 {
     color : red ;
 }
 b:hover {
     color : yellowgreen ;
 }
+
 [attribute="subtitle"]{
     color : yellow ;
 }
 
+/*
 .contact-tittle__h1{
-    font-size: 1em;
-    font-family: sans-serif;
-    font-weight: 800;
-    color : violet ;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace, Cursive;
+    line-height: 1; /*espacio que ocupa el bloque de letra de altura*
 }
+*/
+h2 {
+    color: black;
+    display: inline-block ;
+    background-color: red;
+    padding: 50px ;
+    border-radius: 50%;
+    margin: 1em;
+    border: 1px solid #a22;
+    box-shadow: 2px 4px 20px 5px #000;
+    text-shadow: 2px 2px 5px #000;
+    transform: rotate(-45deg);
+}
+div {
+    height: 100px;
+    width: 100px;
+    background: blue ;
+    display: inline-block;
+}
+.caja2{
+    outline: 5px solid red;
+    position: relative;
+}
+

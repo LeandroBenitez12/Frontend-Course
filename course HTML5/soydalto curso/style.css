@@ -1,0 +1,41 @@
+div {
+    
+    display: block;
+    background: aquamarine;
+    position: absolute;
+}
+div div{
+    width: 80px;
+    height: 80px;
+    background: chartreuse;
+}
+.contenedor{
+    position: relative;
+    border: 3px solid red;
+    margin: 50px auto;
+    height: 400px;
+    width: 400px;
+}
+.box1{
+    left: 0;
+
+}
+.box2{  
+    right: 0;
+}
+.box3{
+    bottom: 0;
+    left: 0;
+}
+.box4{
+    bottom: 0;
+    right: 0;
+}
+.box5{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
