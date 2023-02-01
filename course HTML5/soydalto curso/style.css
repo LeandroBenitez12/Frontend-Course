@@ -39,3 +39,14 @@ div div{
     margin: auto;
 
 }
+.box-fixed{
+    background: cadetblue;
+    position: sticky;
+    opacity: .6;
+    top: 50px;
+}
+a {
+    color: violet ;
+    font-size: .9em;
+    font-family: cursive
+}
