@@ -1,4 +1,4 @@
-div {
+/*div {
     
     display: block;
     background: aquamarine;
@@ -49,4 +49,27 @@ a {
     color: violet ;
     font-size: .9em;
     font-family: cursive
+}*/
+
+.conteiner{
+    width: 50%;
+    height: 50%;
+    background: palegreen;
+    outline: 4PX solid #000;
+    margin: auto;
+    padding: 10px;
+}
+p{
+    float: center;
+}
+h3{
+    text-align:center ;
+    font-size: 1.6em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000;
+}
+img{
+    float: right;
+    width: 40%;
+    padding: 10px;
 }
