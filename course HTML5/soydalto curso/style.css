@@ -76,7 +76,7 @@ img{
     width: 40%;
     padding: 10px;
 }
-*/
+
 
 .contenedor1{
     width: 250px;
@@ -124,4 +124,78 @@ img{
     margin: 10px;
     width: 200px;
     height: 300px;
+}
+
+div{
+
+    width: 20%;
+    display: inline-block;
+    background: #f0a;
+}
+
+
+.subox2{
+    background: #e0e;
+    padding: 30px;
+    
+}
+
+@media only screen and(min-width: 1280px) {
+.subox2 {
+    display:block; 
+    width: 100%;
+    background: rgb(0, 238, 75);
+}
+}
+*/
+.nav{
+    background-color: aliceblue;
+}
+.nav_responsive-ul{
+    display: none;
+}
+.nav_li{
+    display: inline-block;
+    padding: 9px;
+}
+.nav_responsive-li{
+    display: block;
+    padding: 2px;
+}
+
+.nav_li a{
+    color: #000;
+    text-decoration: none;
+}
+.nav_responsive-li a{
+    color: #000;
+    text-decoration: none;
+}
+.nav_li i{
+    color: blue;
+    width: 20px;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+.nav_responsive-li i{
+    color: blue;
+    width: 20px;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+.nav_li a:hover{
+    text-shadow: .6px 1px  #000;
+    color: #012579;
+}
+
+.nav_li:hover > a{
+    color: #012579;
+}
+@media(max-width: 500px) {
+    .nav_ul{
+        display: none;
+    }
+    .nav_responsive-ul{
+        display: block;
+    }
 }
