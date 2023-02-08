@@ -121,3 +121,17 @@ section{
         left: 0;
     }
 }
+.container-box-flex div{
+    display: flex;
+    height: 100vh;
+
+}
+.Boxflex{ 
+    background-color: #0301BB;
+    color: #0301BB;
+    margin: 5px;
+
+}
+.blue{
+    background-color: #d0ff00;
+}

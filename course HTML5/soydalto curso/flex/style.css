@@ -1,0 +1,31 @@
+*{margin: 0;}
+
+.Box-container{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
+
+.Box-item{
+    background-color: palegreen;
+    color: #fff;
+    margin: 10px;
+    min-width: 200px;
+    height: 200px;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+.Blue{
+    background: #12f;
+}
+
+.Red{
+    background: #e10;
+}
+.Yellow{
+    background: #ddff01;
+}
