@@ -1,0 +1,67 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.flex_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #700000;
+    margin: 60px 30px;
+
+}
+.form{
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+.form_input{
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0px;
+    border: none;
+    border-bottom: 3px solid #300000;
+    background: transparent;
+    color: #fff ;  
+}
+.form_input:focus{
+    background: #300000;
+    outline: none;
+    border-bottom: 3px solid #fff;
+}
+
+.form textarea{
+    min-height: 130px;
+}
+
+.form-img{
+    flex: 1;
+    display: flex;
+    padding: 10px;
+}
+
+.form-img div{
+    padding: 10px;
+    
+}
+
+.img-conteiner{
+    margin: auto;
+}
+
+.img-conteiner div{
+    background-color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    padding: 22px;
+}
+
+.form-img img{
+    width: 70%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    margin: auto;
+}
