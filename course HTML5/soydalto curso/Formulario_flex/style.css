@@ -9,25 +9,25 @@ body{
 .flex_container{
     
     min-height: 500px;
-    min-width: 800px;
+    min-width: 360px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     background-color: #700000;
     margin: 60px 30px;
-    border: 10px ridge #010d00;
+    border: 10px ridge #041e02;
 }
 .form{
     order: 2;
-    min-width: 400px;
+    min-width: 300px;
     flex: 1;
     text-align: center;
     padding: 20px;
 }
 .form_input{
     
-    width: 100%;
+    width: 90%;
     padding: 8px;
     margin: 4px 0px;
     border: none;
@@ -76,7 +76,7 @@ body{
 
 .form-img img{
 
-    width: 70%;
+    width: 100%;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
     margin: auto;
