@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    background: radial-gradient(circle, #aaa, rgb(255, 210, 255));
+    padding: 10px;
+    display: flex;
+}
+
+.grid-conteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+}
