@@ -9,12 +9,31 @@ body{
 
 .grid-conteiner{
     display: grid;
-    grid-template-columns: 200px 200px 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: repeat(5, minmax(100px,200px));
+    grid-template-rows: repeat(3, minmax(50px,150px));
     grid-gap: 10px 10px;
     background: #000;
 }
 .grid-item{
     border: 3px solid #000;
     background: #fff;
+}
+
+.grid-item:first-child{
+    background: #fd0;
+}
+
+.grid-item:nth-child(2){
+    background: #900;
+
+
+}
+
+.grid-item:nth-child(3){
+    background: #090;
+}
+
+.grid-item:nth-child(4){
+    background: #009;
+
 }
