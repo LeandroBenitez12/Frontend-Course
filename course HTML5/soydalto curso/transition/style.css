@@ -1,0 +1,43 @@
+
+
+.conteiner{
+
+    background: #77aaf9;
+    padding: 10px;
+    height: 30vh;
+}
+
+.box{
+    background: #000099;
+    height: 70px;
+    width: 70px;
+    margin: 5vh 5px;
+    padding: 30px;
+    animation-name: log;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes log {
+    0%{
+        position: relative;
+        background: #000000;
+        left: 0;
+    }
+
+    50%{
+        background: #009900
+        ;
+    }
+
+    100%{
+        background: #990000;
+        left: 90%;
+    }
+}
+
+
