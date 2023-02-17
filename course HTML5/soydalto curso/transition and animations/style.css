@@ -16,11 +16,12 @@
     animation-name: log;
     animation-duration: 5s;
     position: relative;
-    animation-iteration-count: 3;
-    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     animation-fill-mode: forwards;
-
+    animation-timing-function: cubic-bezier(0.47, 0.23, 0.245, 1.9)
 }
+
 
 @keyframes log {
     0%{
@@ -36,7 +37,7 @@
 
     100%{
         background: #990000;
-        left: 90%;
+        left: 80%;
     }
 }
 
