@@ -1,10 +1,15 @@
 *{
     margin: 0;
+    padding: 10px;
 }
 
 .container{
     background-color: aquamarine;
-    height: 500px;
-    width: 500px;
+    color: aliceblue;
+    margin: auto;
+    height: 80vh;
+    width: 40%;
+    background-size: cover;
+    filter: blur(.8px) brightness(1.8) contrast(1.4) drop-shadow(1px 1px 2px #000) drop-shadow(1px 1px 2px #000) drop-shadow(1px 1px 2px #000) grayscale(20%) hue-rotate(90deg) invert(99%) saturate(400%);
     background-image: url(https://w0.peakpx.com/wallpaper/901/1019/HD-wallpaper-juan-roman-riquelme-boca-juniors-futbol-jrr10-jugador-thumbnail.jpg);
 }
