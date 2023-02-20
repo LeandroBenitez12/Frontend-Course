@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+
+.container{
+    padding: 10px;
+    background-color: #00f2cf;
+    background-image: url(https://images.pexels.com/photos/2478248/pexels-photo-2478248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #101059;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
