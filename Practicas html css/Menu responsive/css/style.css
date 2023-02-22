@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    color: #fff;
+    
+}
+#inicio{
+    background: linear-gradient( rgba(0,0,0,.4),  rgba(0,0,0,.7)),
+    url("../img/header_img.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+}
+.nav-conteiner{
+    padding: 10px;
+    background: linear-gradient( rgba(2, 11, 52, 1), rgba(29, 0, 60, 1));
+    height: 50px;
+    display: flex;
+}
+.logo-header{
+    background-color: #fff;
+    background-image: url("../img/iCONO_NUBE.ico");
+    background-position: center center;
+    background-size: cover;
+    height: 50px ;
+    width: 100px;
+}
+ul{
+    line-height: 35px;
+    margin: auto;
+}
+li{
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+a{
+    font-size: 25px;
+    text-decoration: none;
+}
