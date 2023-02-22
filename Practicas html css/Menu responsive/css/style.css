@@ -11,22 +11,32 @@
     background-position: center center;
 }
 .nav-conteiner{
+    display: flex;
+    justify-content: center;
+
+}
+.nav{
     padding: 10px;
     background: linear-gradient( rgba(2, 11, 52, 1), rgba(29, 0, 60, 1));
-    height: 50px;
+    width: 100%;
     display: flex;
+
 }
-.logo-header{
-    background-color: #fff;
+
+.logo-header{ 
+    
+    border-radius: 50%;
     background-image: url("../img/iCONO_NUBE.ico");
     background-position: center center;
     background-size: cover;
     height: 50px ;
-    width: 100px;
+    width: 90px;
 }
 ul{
+
     line-height: 35px;
     margin: auto;
+
 }
 li{
     display: inline-block;
