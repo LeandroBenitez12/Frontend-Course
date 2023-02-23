@@ -1,49 +1,86 @@
-* {
+*{
     margin: 0;
-    color: #fff;
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#inicio{
-    background: linear-gradient( rgba(0,0,0,.4),  rgba(0,0,0,.7)),
+
+.conteiner-boton-menu{
+    display: none;
+}
+
+.todo{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.1)), 
     url("../img/header_img.jpg");
     background-size: cover;
-    height: 100vh;
     background-position: center center;
 }
-.nav-conteiner{
+
+.nav-normal{
     display: flex;
-    justify-content: center;
-
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.76),rgba(0,0,0,.35), rgba(0,0,0,.08), rgba(0,0,0,.0));
 }
-.nav{
-    padding: 10px;
-    background: linear-gradient( rgba(2, 11, 52, 1), rgba(29, 0, 60, 1));
-    width: 100%;
-    display: flex;
-
+.nav-responsive{
+    display: none;
+}
+.logo{
+    color: #fff;
+    font-size: 28px;
+}
+span{
+    color: rgb(85, 184, 255);
 }
 
-.logo-header{ 
-    
-    border-radius: 50%;
-    background-image: url("../img/iCONO_NUBE.ico");
-    background-position: center center;
-    background-size: cover;
-    height: 50px ;
-    width: 90px;
-}
-ul{
-
-    line-height: 35px;
-    margin: auto;
-
-}
-li{
+nav ul li{
+    list-style-type: none;
     display: inline-block;
-    margin: 5px 10px;
+    padding: 10px 20px;
 }
 
-a{
-    font-size: 25px;
+nav ul li a{
+    color: #fff;
     text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(85, 184, 255);
+    transition: .3s;
+}
+button{
+    border: none;
+    padding: 10px 15px;
+    background: linear-gradient(rgba(85,180,255,.7),rgba(85,180,255,.4));
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .3s;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+@media(max-width: 780px) {
+    .nav-normal{
+        display: none;
+    }
+    .nav-responsive{
+        display: flex;
+
+    }
+    .conteiner-boton-menu{
+        display: flex;
+    }
+    #check{
+        display: none;
+    }
+    .boton-menu{
+        font-size: 33px;
+        position: fixed;
+        right: 0;
+    }
 }
