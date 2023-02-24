@@ -1,9 +1,12 @@
 *{
     margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    
 }
 
 .todo{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.1)), 
     url("../img/header_img.jpg");
@@ -95,15 +98,14 @@ footer{
 .article-titulo{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
     
 }
 .article-titulo h3{
     font-size: 24px;
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: #f01;
-    text-decoration: underline;
 }
 
 .article-contenido{
@@ -116,6 +118,20 @@ footer{
     color: #fff;
   }
 
+aside h3{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 button:hover{
     transform: scale(1.2);
 }
@@ -154,7 +170,7 @@ button:hover{
 
     .conteiner-areas{
         display: grid;
-        height: 85vh;
+        height: 100vh;
         padding: 10px 20px;
         grid-template-rows: repeat(auto-fill, 1fr);
         grid-template-areas: 
@@ -162,9 +178,11 @@ button:hover{
             "main main main main"
             "main main main main"
             "aside aside aside aside"
-            "aside aside aside aside"
             "footer footer footer footer"
             ;
     }
-
+    
+    aside ul{
+        display: none;
+    }
 }
